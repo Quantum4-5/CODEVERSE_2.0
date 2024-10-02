@@ -1,0 +1,27 @@
+{
+  "name": "videoverify",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Tripathi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "fastpriorityqueue": "^0.7.5",
+    "js-priority-queue": "^0.1.5",
+    "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.8.0",
+    "twilio": "^5.3.2",
+    "uuid": "^10.0.0"
+  }
+}
